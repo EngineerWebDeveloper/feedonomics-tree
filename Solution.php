@@ -32,4 +32,21 @@ $input = [
         }
         
         print_r($result);
+                                                                   
+        /* Expected result:
+         Array (
+            [item] => Array (
+                [id] => my_id
+                [title] => my_title
+                [group1] => Array (
+                    [val1] => my_val1
+                    [val2] => my_val2
+                    [val3] => my_val3
+                )
+            )
+            [summary] => xyz
+        )
+                            
+         */                   
+                            
       
